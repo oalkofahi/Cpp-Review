@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="FirstWorkSpace" Database="" Version="10000">
+  <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="Project2" Path="FirstWorkSpace/FirstWorkSpace.project" Active="No"/>
+  <Project Name="Arrays_and_Vectors" Path="Arrays_and_Vectors/Arrays_and_Vectors.project" Active="No"/>
+  <Project Name="Dollars_Change" Path="Dollars_Change/Dollars_Change.project" Active="No"/>
+  <Project Name="CStyleStrings" Path="strings/strings.project" Active="No"/>
+  <Project Name="CppStrings" Path="CppStrings/CppStrings.project" Active="No"/>
+  <Project Name="Cipher" Path="Cipher/Cipher.project" Active="No"/>
+  <Project Name="Review" Path="Review/Review.project" Active="No"/>
+  <Project Name="Templates" Path="../Templates/Templates/Templates.project" Active="No"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="No"/>
+  <Project Name="test" Path="test/test.project" Active="No"/>
+  <Project Name="Classes" Path="Classes/Classes.project" Active="No"/>
+  <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="No"/>
+  <Project Name="Constructors" Path="Constructors/Constructors.project" Active="No"/>
+  <Project Name="OperatorOverloading" Path="OperatorOverloading/OperatorOverloading.project" Active="No"/>
+  <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="No"/>
+  <Project Name="Polymorphism" Path="Polymorphism/Polymorphism.project" Active="No"/>
+  <Project Name="AbstractClasses" Path="AbstractClasses/AbstractClasses.project" Active="No"/>
+  <Project Name="Macros" Path="Macros/Macros.project" Active="No"/>
+  <Project Name="FunctionTemplates" Path="FunctionTemplates/FunctionTemplates.project" Active="No"/>
+  <Project Name="ClassTemplates" Path="ClassTemplates/ClassTemplates.project" Active="No"/>
+  <Project Name="STL_Containers" Path="STL_Containers/STL_Containers.project" Active="No"/>
+  <Project Name="STL_Algorithms" Path="STL_Algorithms/STL_Algorithms.project" Active="No"/>
+  <Project Name="STL_Arrays" Path="STL_Arrays/STL_Arrays.project" Active="No"/>
+  <Project Name="STL_Vector" Path="STL_Vector/STL_Vector.project" Active="No"/>
+  <Project Name="STL_Deques" Path="STL_Deques/STL_Deques.project" Active="No"/>
+  <Project Name="STL_Lists_and_Forward_Lists" Path="STL_Lists_and_Forward_Lists/STL_Lists_and_Forward_Lists.project" Active="No"/>
+  <Project Name="STL_Sets_and_Maps" Path="STL_Sets_and_Maps/STL_Sets_and_Maps.project" Active="No"/>
+  <Project Name="STL_Adapter_Container_Stack" Path="STL_Adapter_Container_Stack/STL_Adapter_Container_Stack.project" Active="No"/>
+  <Project Name="STL_Adapters_Queue_and_Priority_Queu" Path="STL_Adapters_Queue_and_Priority_Queu/STL_Adapters_Queue_and_Priority_Queu.project" Active="No"/>
+  <Project Name="Lambda_Expressions" Path="Lambda_Expressions/Lambda_Expressions.project" Active="No"/>
+  <Project Name="Stateless_Lambda_Expressions" Path="Stateless_Lambda_Expressions/Stateless_Lambda_Expressions.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="Project2" ConfigName="Debug"/>
+      <Project Name="Arrays_and_Vectors" ConfigName="Debug"/>
+      <Project Name="Dollars_Change" ConfigName="Debug"/>
+      <Project Name="CStyleStrings" ConfigName="Debug"/>
+      <Project Name="CppStrings" ConfigName="Debug"/>
+      <Project Name="Cipher" ConfigName="Debug"/>
+      <Project Name="Review" ConfigName="Debug"/>
+      <Project Name="Templates" ConfigName="Debug"/>
+      <Project Name="Pointers" ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
+      <Project Name="Classes" ConfigName="Debug"/>
+      <Project Name="DeepCopy" ConfigName="Debug"/>
+      <Project Name="Constructors" ConfigName="Debug"/>
+      <Project Name="OperatorOverloading" ConfigName="Debug"/>
+      <Project Name="Inheritance" ConfigName="Debug"/>
+      <Project Name="Polymorphism" ConfigName="Debug"/>
+      <Project Name="AbstractClasses" ConfigName="Debug"/>
+      <Project Name="Macros" ConfigName="Debug"/>
+      <Project Name="FunctionTemplates" ConfigName="Debug"/>
+      <Project Name="ClassTemplates" ConfigName="Debug"/>
+      <Project Name="STL_Containers" ConfigName="Debug"/>
+      <Project Name="STL_Algorithms" ConfigName="Debug"/>
+      <Project Name="STL_Arrays" ConfigName="Debug"/>
+      <Project Name="STL_Vector" ConfigName="Debug"/>
+      <Project Name="STL_Deques" ConfigName="Debug"/>
+      <Project Name="STL_Lists_and_Forward_Lists" ConfigName="Debug"/>
+      <Project Name="STL_Sets_and_Maps" ConfigName="Debug"/>
+      <Project Name="STL_Adapter_Container_Stack" ConfigName="Debug"/>
+      <Project Name="STL_Adapters_Queue_and_Priority_Queu" ConfigName="Debug"/>
+      <Project Name="Lambda_Expressions" ConfigName="Debug"/>
+      <Project Name="Stateless_Lambda_Expressions" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="Project2" ConfigName="Release"/>
+      <Project Name="Arrays_and_Vectors" ConfigName="Release"/>
+      <Project Name="Dollars_Change" ConfigName="Release"/>
+      <Project Name="CStyleStrings" ConfigName="Release"/>
+      <Project Name="CppStrings" ConfigName="Release"/>
+      <Project Name="Cipher" ConfigName="Release"/>
+      <Project Name="Review" ConfigName="Release"/>
+      <Project Name="Templates" ConfigName="Release"/>
+      <Project Name="Pointers" ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
+      <Project Name="Classes" ConfigName="Release"/>
+      <Project Name="DeepCopy" ConfigName="Release"/>
+      <Project Name="Constructors" ConfigName="Release"/>
+      <Project Name="OperatorOverloading" ConfigName="Release"/>
+      <Project Name="Inheritance" ConfigName="Release"/>
+      <Project Name="Polymorphism" ConfigName="Release"/>
+      <Project Name="AbstractClasses" ConfigName="Release"/>
+      <Project Name="Macros" ConfigName="Release"/>
+      <Project Name="FunctionTemplates" ConfigName="Release"/>
+      <Project Name="ClassTemplates" ConfigName="Release"/>
+      <Project Name="STL_Containers" ConfigName="Release"/>
+      <Project Name="STL_Algorithms" ConfigName="Release"/>
+      <Project Name="STL_Arrays" ConfigName="Release"/>
+      <Project Name="STL_Vector" ConfigName="Release"/>
+      <Project Name="STL_Deques" ConfigName="Release"/>
+      <Project Name="STL_Lists_and_Forward_Lists" ConfigName="Release"/>
+      <Project Name="STL_Sets_and_Maps" ConfigName="Release"/>
+      <Project Name="STL_Adapter_Container_Stack" ConfigName="Release"/>
+      <Project Name="STL_Adapters_Queue_and_Priority_Queu" ConfigName="Release"/>
+      <Project Name="Lambda_Expressions" ConfigName="Release"/>
+      <Project Name="Stateless_Lambda_Expressions" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
