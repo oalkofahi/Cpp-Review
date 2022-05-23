@@ -20,6 +20,7 @@
 #include <iostream>
 #include <vector>
 #include <functional>
+#include <algorithm>
 
 using namespace std;
 
@@ -65,12 +66,22 @@ auto ret3()
     return [] (int x) {cout << x;};
 }
 
+void print_if(vector<int> &nums, bool (*predicate) (int))
+{
+    for(auto &n: nums)
+        if(predicate(n))
+            cout << n << " ";
+    cout << "\n";
+}
+
+
 int main()
 {
     // Example 1
     int x {10}; // (1)
     
     // Defining and calling a lambda
+    // Note that calling is done by the (100) at the end and 100 is the value for x
     [] (int x) {cout << x << endl;}(100); // will this use the x from (1) above?
     // No because it is stateless ==> it only sees its parameters
     
@@ -156,6 +167,30 @@ int main()
     auto lam1 = ret1();
     cout << "Trying returned lambda: ";
     lam1(10000);cout << endl;
+    
+    
+    
+    // Example 7: using lambdas as function parameters
+    
+    auto pred = [] (int x) {return (x%2==0? true : false);};
+    
+    vector<int> numbers {1,20,3,4,50,6,7,8,90,10};
+    
+    cout << "Printing Even Numbers:\n";
+    print_if(numbers, pred);
+    
+    cout << "Printing Odd Numbers:\n";
+    print_if(numbers, [](int x){return (x%2==1? true:false);});
+    
+    cout << "Sorting descending\n";
+    sort(numbers.begin(), numbers.end(), [] (int &x, int &y) {return x > y;} );
+    
+    print_if(numbers, [](int x) {return true;} );
+    
+    cout << "Sorting ascending\n";
+    sort(numbers.begin(), numbers.end(), [] (int &x, int &y) {return x < y;} );
+    
+    print_if(numbers, [](int x) {return true;} );
     
     return 0;
 }
