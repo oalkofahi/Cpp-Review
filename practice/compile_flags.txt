@@ -1,0 +1,3 @@
+-IC:\Users\osame\Documents\CppProjects\FirstWorkSpace\FirstWorkSpace\practice
+-target
+x86_64-w64-mingw32

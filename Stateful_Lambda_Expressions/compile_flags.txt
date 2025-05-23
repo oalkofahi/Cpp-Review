@@ -1,0 +1,4 @@
+-IC:\Users\osame\Documents\CppProjects\FirstWorkSpace\FirstWorkSpace\Stateful_Lambda_Expressions
+-std=c++17
+-target
+x86_64-w64-mingw32
